@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "panoramicshot",
+  "version": "${version}",
+  "name": "PanoramicShot",
+  "description": "",
+  "authors": [
+    "Oranamous"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/panoramicshot/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.voxelden.panoramicshot.PanoramicShot"
+    ],
+    "main": []
+  },
+  "mixins": [
+    "panoramicshot.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
